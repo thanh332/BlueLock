@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071125">
+  <title>BLUE LOCK | UNLEASH YOUR EGO</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">BLUE<span>LOCK</span><b>⚽</b></a>
+
+    <nav id="navigation">
+      <a href="#story">STORY</a>
+      <a href="#players">PLAYERS</a>
+      <a href="#anime">ANIME</a>
+      <a href="#football">FOOTBALL</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#challenge">CHALLENGE</a>
+      <a href="#quiz">QUIZ</a>
+    </nav>
+
+    <button id="menuButton" class="menu-button" aria-label="Menü öffnen">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <div class="eyebrow">
+          PROJECT BLUE LOCK / JAPAN
+        </div>
+
+        <h1>UNLEASH<br>YOUR <span>EGO.</span></h1>
+
+        <p class="hero-subtitle">ONE GOAL. ONE STRIKER. NO LIMITS.</p>
+
+        <p class="hero-description">
+          300 Stürmer. Ein einziges Ziel.
+          Wer wird Japans nächster Superstar?
+          Entdecke die Welt von BLUE LOCK und werde
+          selbst zum ultimativen Egoist!
+        </p>
+
+        <div class="button-group">
+          <a href="#story" class="btn primary">ENTER BLUE LOCK ↗</a>
+          <a href="#challenge" class="btn outline">START CHALLENGE ⚽</a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>300</strong><small>STRIKERS</small></div>
+          <div><strong>01</strong><small>ULTIMATE GOAL</small></div>
+          <div><strong>∞</strong><small>EGO</small></div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="energy-glow"></div>
+        <div class="hero-ball">⚽</div>
+        <span class="hero-number">11</span>
+        <span class="hero-label">STRIKER PROJECT</span>
+        <span class="hero-japanese">ブルーロック</span>
+      </div>
+    </div>
+
+    <div class="scroll-label">SCROLL TO DISCOVER ↓</div>
+  </section>
+
+  <div class="ticker">
+    <div class="ticker-track">
+      EGO IS EVERYTHING ✦ BECOME THE BEST STRIKER ✦ BLUE LOCK ✦
+      EGO IS EVERYTHING ✦ BECOME THE BEST STRIKER ✦ BLUE LOCK ✦
+    </div>
+  </div>
+
+  <!-- STORY -->
+  <section id="story" class="section light">
+    <div class="section-heading">
+      <span class="section-tag">01 / THE STORY</span>
+      <h2>WELCOME TO<br><span>BLUE LOCK.</span></h2>
+      <p>
+        Ein einzigartiges Trainingsprojekt, das aus 300
+        talentierten Stürmern den weltbesten Angreifer
+        hervorbringen soll.
+      </p>
+    </div>
+
+    <div class="story-layout">
+      <div class="story-art">
+        <div class="story-huge">300</div>
+        <div class="story-icon">⚽</div>
+        <div class="story-caption">ONLY THE STRONGEST SURVIVE.</div>
+      </div>
+
+      <div class="story-content">
+        <span class="blue-label">THE BEGINNING</span>
+        <h3>Was ist Blue Lock?</h3>
+
+        <p>
+          Nach Japans enttäuschendem Abschneiden bei der
+          Fussball-Weltmeisterschaft 2018 entsteht die Idee
+          für ein radikales Trainingsprogramm.
+        </p>
+
+        <p>
+          Der Trainer Jinpachi Ego versammelt 300 junge
+          Stürmer in einer besonderen Einrichtung namens
+          Blue Lock. Sein Ziel: den besten Torjäger der Welt
+          zu erschaffen.
+        </p>
+
+        <p>
+          Yoichi Isagi muss lernen, seine eigenen Stärken
+          zu erkennen, Gegner zu analysieren und in
+          entscheidenden Momenten selbst Verantwortung
+          zu übernehmen.
+        </p>
+
+        <div class="story-facts">
+          <div><b>2018</b><small>MANGA-START</small></div>
+          <div><b>2022</b><small>ANIME-START</small></div>
+          <div><b>300</b><small>TALENTE</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECT PHASES -->
+  <section class="section dark">
+    <div class="section-heading">
+      <span class="section-tag">02 / THE PROJECT</span>
+      <h2>THE PATH TO<br><span>THE TOP.</span></h2>
+      <p>Blue Lock ist mehr als ein Trainingslager. Es ist ein Wettbewerb, in dem jeder Spieler seine eigene Waffe entdecken muss.</p>
+    </div>
+
+    <div class="phase-grid" id="phaseGrid"></div>
+  </section>
+
+  <!-- CHARACTERS -->
+  <section id="players" class="section light">
+    <div class="section-heading">
+      <span class="section-tag">03 / THE EGOISTS</span>
+      <h2>MEET THE<br><span>STRIKERS.</span></h2>
+      <p>Jeder Spieler besitzt eine besondere Fähigkeit. Wer ist dein Favorit?</p>
+    </div>
+
+    <div class="filters">
+      <button class="filter active" data-filter="all">ALL PLAYERS</button>
+      <button class="filter" data-filter="Team Z">TEAM Z</button>
+      <button class="filter" data-filter="Rivals">RIVALS</button>
+    </div>
+
+    <div id="playerGrid" class="player-grid"></div>
+  </section>
+
+  <!-- ANIME -->
+  <section id="anime" class="section blue-section">
+    <div class="section-heading">
+      <span class="section-tag">04 / WATCH THE ANIME</span>
+      <h2>THE EGO<br><span>EVOLVES.</span></h2>
+      <p>Verfolge die Geschichte von Blue Lock als Anime und Kinofilm.</p>
+    </div>
+
+    <div class="anime-grid" id="animeGrid"></div>
+
+    <div class="anime-future">
+      <span>UPCOMING ANIME PROJECT</span>
+      <h3>NEO EGOIST LEAGUE</h3>
+      <p>
+        Die dritte Anime-Staffel wurde angekündigt.
+        Die Konkurrenz erreicht ein neues Niveau.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTBALL BASICS -->
+  <section id="football" class="section light">
+    <div class="section-heading">
+      <span class="section-tag">05 / FOOTBALL ACADEMY</span>
+      <h2>UNDERSTAND<br><span>FOOTBALL.</span></h2>
+      <p>
+        Blue Lock zeigt spektakuläre Fussballmomente.
+        Lerne die echten Regeln, Positionen und Grundlagen
+        des Sports kennen.
+      </p>
+    </div>
+
+    <div class="fact-grid">
+      <div><strong>11</strong><span>SPIELER PRO TEAM</span></div>
+      <div><strong>90'</strong><span>REGULÄRE SPIELZEIT</span></div>
+      <div><strong>2</strong><span>HALBZEITEN</span></div>
+      <div><strong>1</strong><span>SPIELBALL</span></div>
+    </div>
+
+    <div class="field-layout">
+      <div>
+        <span class="blue-label">INTERACTIVE FOOTBALL FIELD</span>
+        <h3 class="section-subtitle">CHOOSE A POSITION.</h3>
+        <p class="muted">
+          Klicke auf einen Spieler, um seine Aufgabe
+          auf dem Fussballfeld kennenzulernen.
+        </p>
+
+        <div class="football-field">
+          <div class="field-center-line"></div>
+          <div class="center-circle"></div>
+          <div class="penalty-top"></div>
+          <div class="penalty-bottom"></div>
+
+          <button class="field-player" style="top:12%;left:50%" data-role="st">ST</button>
+
+          <button class="field-player" style="top:32%;left:22%" data-role="wing">LF</button>
+          <button class="field-player" style="top:32%;left:78%" data-role="wing">RF</button>
+
+          <button class="field-player" style="top:43%;left:50%" data-role="cam">ZOM</button>
+
+          <button class="field-player" style="top:58%;left:32%" data-role="cm">ZM</button>
+          <button class="field-player" style="top:58%;left:68%" data-role="cm">ZM</button>
+
+          <button class="field-player" style="top:77%;left:15%" data-role="def">LV</button>
+          <button class="field-player" style="top:77%;left:38%" data-role="def">IV</button>
+          <button class="field-player" style="top:77%;left:62%" data-role="def">IV</button>
+          <button class="field-player" style="top:77%;left:85%" data-role="def">RV</button>
+
+          <button class="field-player goalie" style="top:92%;left:50%" data-role="gk">TW</button>
+        </div>
+      </div>
+
+      <div id="positionInfo" class="info-panel">
+        <div class="info-icon">⚽</div>
+        <span class="blue-label">PLAYER POSITION</span>
+        <h3>SELECT A PLAYER</h3>
+        <p>Wähle eine Position auf dem Spielfeld.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section dark">
+    <div class="section-heading">
+      <span class="section-tag">06 / FOOTBALL SKILLS</span>
+      <h2>FIND YOUR<br><span>WEAPON.</span></h2>
+      <p>
+        In Blue Lock hat jeder Spieler eine besondere
+        Stärke. Welche Fähigkeiten brauchst du
+        im echten Fussball?
+      </p>
+    </div>
+
+    <div class="skill-grid" id="skillGrid"></div>
+  </section>
+
+  <!-- RULES -->
+  <section class="section light">
+    <div class="section-heading">
+      <span class="section-tag">07 / THE RULEBOOK</span>
+      <h2>KNOW THE<br><span>RULES.</span></h2>
+    </div>
+    <div class="rules-list" id="rulesList"></div>
+  </section>
+
+  <!-- PENALTY GAME -->
+  <section id="challenge" class="section dark">
+    <div class="section-heading">
+      <span class="section-tag">08 / STRIKER CHALLENGE</span>
+      <h2>CAN YOU<br><span>SCORE?</span></h2>
+      <p>
+        Du stehst am Elfmeterpunkt. Wohin schiesst du?
+        Versuche den Torwart auszutricksen!
+      </p>
+    </div>
+
+    <div class="game-panel">
+      <span class="blue-label">PENALTY SHOOTOUT</span>
+      <h3>BE THE STRIKER.</h3>
+
+      <div class="game-stats">
+        <span>SHOTS: <b id="shots">0/5</b></span>
+        <span>GOALS: <b id="goals">0</b></span>
+      </div>
+
+      <div class="goal-scene">
+        <div class="goal-frame">
+          <div id="goalkeeper">🧤</div>
+          <div id="shotBall">⚽</div>
+        </div>
+        <div class="penalty-ground"></div>
+      </div>
+
+      <p id="gameMessage" aria-live="polite">Wähle eine Schussrichtung!</p>
+
+      <div class="shot-buttons">
+        <button class="btn primary shot" data-direction="left">↖ LEFT</button>
+        <button class="btn primary shot" data-direction="center">↑ CENTER</button>
+        <button class="btn primary shot" data-direction="right">↗ RIGHT</button>
+      </div>
+
+      <button id="gameReset" class="btn outline">↻ NEW GAME</button>
+    </div>
+  </section>
+
+  <!-- EGO TEST -->
+  <section class="section blue-section" id="ego">
+    <div class="section-heading">
+      <span class="section-tag">09 / YOUR STRIKER DNA</span>
+      <h2>WHAT IS<br><span>YOUR EGO?</span></h2>
+      <p>Finde heraus, welchem Blue-Lock-Spielstil du am meisten ähnelst!</p>
+    </div>
+
+    <div class="test-card">
+      <div class="test-count" id="egoCount">QUESTION 01 / 04</div>
+      <h3 id="egoQuestion"></h3>
+      <div id="egoAnswers"></div>
+      <div id="egoResult"></div>
+      <button id="egoRestart" class="btn dark-button" hidden>TRY AGAIN ↻</button>
+    </div>
+  </section>
+
+  <!-- QUIZ -->
+  <section id="quiz" class="section light">
+    <div class="section-heading">
+      <span class="section-tag">10 / FINAL CHALLENGE</span>
+      <h2>THE ULTIMATE<br><span>BLUE LOCK QUIZ.</span></h2>
+      <p>
+        Zehn Fragen zu Blue Lock und Fussball.
+        Wie viele Punkte kannst du holen?
+      </p>
+    </div>
+
+    <div class="quiz-panel">
+      <div class="quiz-header">
+        <span>BLUE LOCK KNOWLEDGE TEST</span>
+        <span id="quizCount">01 / 10</span>
+      </div>
+      <div class="progress-track"><div id="quizProgress"></div></div>
+      <h3 id="quizQuestion"></h3>
+      <div id="quizOptions"></div>
+      <p id="quizFeedback" aria-live="polite"></p>
+      <button class="btn primary" id="quizNext" hidden>NEXT QUESTION →</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">BLUE<span>LOCK</span></div>
+    <h2>BECOME THE BEST.</h2>
+    <p>YOUR EGO IS YOUR WEAPON.</p>
+    <a href="#home">BACK TO TOP ↑</a>
+    <small>
+      Inoffizielles Fanprojekt über Blue Lock und Fussball.
+      Blue Lock gehört den jeweiligen Rechteinhabern.
+    </small>
+  </footer>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
